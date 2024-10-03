@@ -20,6 +20,7 @@ function ExpensesOverview(){
     headerTintColor: "white",
     tabBarStyle: {backgroundColor: GlobalStyles.colors.primary500},
     tabBarActiveTintColor: GlobalStyles.colors.accent500,
+    
   }}>
     <BottomTabs.Screen name='RecentExpenses' component={RecentExpenses} options={{
       title: "Recent expennses",

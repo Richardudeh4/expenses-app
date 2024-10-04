@@ -1,10 +1,10 @@
 {
   "expo": {
-    "name": "my-new-project",
+    "name": "expense",
     "slug": "my-new-project",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/logo.svg",
     "userInterfaceStyle": "light",
     "splash": {
       "image": "./assets/splash.png",
@@ -18,10 +18,16 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.udeh.mynewproject"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "60a56f69-b41e-4ea7-b9e1-11912eea3bbb"
+      }
     }
   }
 }

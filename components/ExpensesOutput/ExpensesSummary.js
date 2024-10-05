@@ -15,7 +15,7 @@ const expensesSum = expenses.reduce((sum, expense) => {
     <Text style={styles.period}>{periodName}</Text>
     <Text style={styles.period}>{expensesSum}</Text>
     <Text></Text>
-</View>
+    </View>
   )
 }
 
